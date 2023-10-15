@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button {
+    background-color: gray;
+    padding: 7px;
+    border-radius: 100%;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin: 20px auto;
+    text-align: center;
+    width: 50%;
+    gap: 20px;
+
+
+}
+
+.box-1 {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    border:  1px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(214, 195, 198, 0.4);
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.icon svg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -30px;
+    color: rgba(214, 195, 198, 0.4);;
+}
+
+.box-2 {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    border:  1px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(144, 238, 144, 0.4);
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.comp svg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -30px;
+    color: rgba(144, 238, 144, 0.4);
+}
+
+.box-3 {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    border:  1px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 0, 0.4);
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.thras svg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -30px;
+    color: rgba(255, 255, 0, 0.4);
+}
+
+.box-4 {
+    width: 195px;
+    aspect-ratio: 1 / 1;
+    border:  1px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.4);
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.char svg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -30px;
+    color: rgba(173, 216, 230, 0.4); 
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 9;
+}
+
+.wrap {
+    background-color: rgb(233, 233, 234);
+    width: 50%;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.todo-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.todo-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.progress {
+    background-color: rgb(192, 185, 185);
+    padding: 5px;
+    border-radius: 30px;
+    width: 100px;
+    text-align: end;
+}
+
+.active {
+    background-color: rgb(159, 212, 212);
+    padding: 5px;
+    border-radius: 30px;
+    width: 80px;
+    text-align: end;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(192, 185, 185);
+    margin: 10px -15px;
+}
